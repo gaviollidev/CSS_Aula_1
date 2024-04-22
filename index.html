@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormulárioCadastro</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--style é uma das formas de incluir elementos de estilo na página. Dentro do STYLE podemos chamar os elementos que queremos estilizar como no exemplo acima-->
+
+</head>
+
+<body>
+    <h1><b>Formulário de cadastro</b></h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input  id="nome" type="text" placeholder="Digite seu nome" /> 
+        <br />
+        <label for="email">E-mail:</label>
+        <input  id="email" type="email" placeholder="Digite seu e-mail" /> 
+        <br />
+        <label style="color: red;" for="senha">Senha::</label>
+        <input id="senha" type="password" placeholder="Digite sua senha" /> 
+        <br />
+        <button class="botaocadastro" type="submit">Cadastrar</button>
+        <button class="botaoapagar" type="reset">Apagar Dados</button>
+    </form>
+</body>
+</html>
+<!--chamar o style dentro da label é outra forma de estilizar, porém direto dentro da label, como no exemplo na label "senha". O que estiver esilizado diretamente dentro do elemento, será sobreposto às outras esilizações, por exemplo a cor vermelha na label senha sera sobreposta à estilização que esta dentro do STYLE-->
